@@ -1,0 +1,61 @@
+body {
+	background: url("http://www.charlestonoutdooradventures.com/wp-content/uploads/2010/03/twilight-kayak.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	}
+
+li {
+	float: left;
+	
+}
+
+li a {
+	  display:block;
+	  color: grey;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+}
+
+li a:hover {
+	  background-color: white;
+}
+
+div {
+	display: inline;
+	float: left;
+}
+
+div.div1{
+	border: none;
+	border-color: none;
+	background: rgba(100, 100,100, 0.5);
+	margin-right: 5%;
+	width: 10%;
+	height: 700px;
+}
+
+div.div2{
+	border: none;
+	border-color: none;
+	background: rgba(100, 100, 100, 0.5);
+	height: 700px;
+	width: 70%;
+}
+
+div.div3{
+	border: none;
+	border-color: red;
+	background: rgba(100, 100,100, 0.5);
+	margin-left: 5%;
+	width: 10%;
+	height: 700px;
+	float: right;
+}
